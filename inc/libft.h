@@ -3,14 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thgillai <thgillai@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thgillai <thgillai@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/12 11:35:37 by thgillai          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2021/04/30 13:39:02 by thgillai         ###   ########.fr       */
-=======
-/*   Updated: 2021/04/20 12:46:23 by thgillai         ###   ########.fr       */
->>>>>>> 31ab65c1a1f5857ad16120662a28994d313c0d6e
+/*   Updated: 2021/04/30 13:43:53 by thgillai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,22 +36,13 @@ int		ft_isprint(int c);
 void	*ft_memccpy(void *dest, const void *src, int c, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *str1, const void *str2, size_t n);
-<<<<<<< HEAD
-void	*ft_memcpy(void *dest, const void * src, size_t n);
-=======
 void	*ft_memcpy(void *dest, const void *src, size_t n);
->>>>>>> 31ab65c1a1f5857ad16120662a28994d313c0d6e
 void	*ft_memmove( void *dest, const void *src, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strdup(const char *s1);
-<<<<<<< HEAD
-size_t	ft_strlcat(char *restrict dest, const char *restrict src, size_t size);
-size_t	ft_strlcpy(char *restrict dest, const char *restrict src, size_t size);
-=======
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
->>>>>>> 31ab65c1a1f5857ad16120662a28994d313c0d6e
 size_t	ft_strlen(const char *str);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *s1, const char *s2, size_t n);
@@ -90,11 +77,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 /* Partie perso */
 int		ft_ispace(char c);
-<<<<<<< HEAD
-size_t	ft_strcpy(char *restrict dest, const char *restrict src);
 void	exit_error(char *error_string);
-=======
 size_t	ft_strcpy(char *dest, const char *src);
->>>>>>> 31ab65c1a1f5857ad16120662a28994d313c0d6e
 
 #endif
