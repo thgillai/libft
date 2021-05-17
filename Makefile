@@ -21,7 +21,7 @@ SRCS =		atoi.c strlen.c isalpha.c isdigit.c strchr.c putstr_fd.c \
 			memchr.c memcmp.c memmove.c calloc.c substr.c strjoin.c \
 			lstnew.c lstadd_front.c lstsize.c lstlast.c listadd_back.c \
 			lstdelone.c lstclear.c lstiter.c lstmap.c strtrim.c itoa.c \
-			strmapi.c split.c ispace.c strcpy.c exit_error.c \
+			strmapi.c split.c ispace.c strcpy.c exit_error.c strcmp.c \
 			../get_next_line/get_next_line.c \
 			../get_next_line/get_next_line_utils.c \
 			../get_next_line/norme_file.c \
